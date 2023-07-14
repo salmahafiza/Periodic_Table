@@ -1,0 +1,332 @@
+.head{
+background-color: skyblue;
+padding: 20px;
+text-align: center;
+}
+.first{
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: center;
+}
+
+table{
+    justify-content: center;
+}
+.empty{
+    background-color: white
+}
+.eighteen{
+    background-color: white;
+}
+.seventeen{
+    background-color: rgb(66, 153, 66);
+}
+.orange{
+    background-color: rgb(255, 136, 0);
+}
+.pink{
+    background-color: pink;
+}
+.purpke{
+    background-color: plum;
+}
+.yelow{
+    background-color: yellow;
+}
+.skyblue{
+    background-color: skyblue;
+}
+.cream{
+    background-color: rgb(230, 189, 174);
+}
+.light{
+    background-color: rgb(223, 192, 155);
+}
+@keyframes rowAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes cellAnimation {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+#p1 {
+    animation: rowAnimation 1s ease-in-out infinite;
+}
+
+#p1 td {
+    animation: cellAnimation 1s ease-in-out infinite;
+    animation-delay: calc(0.2s * var(--index));
+    transform-origin: left center;
+}
+@keyframes rowAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes cellAnimation {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+#p2 {
+        animation: rowAnimation 1s ease-in-out infinite;
+    }
+
+#p2 td {
+    animation: cellAnimation 1s ease-in-out infinite;
+    animation-delay: calc(0.2s * var(--index));
+    transform-origin: left center;
+}
+
+@keyframes rowAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes cellAnimation {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+#p3 {
+    animation: rowAnimation 1s ease-in-out infinite;
+}
+
+#p3 td {
+    animation: cellAnimation 1s ease-in-out infinite;
+    animation-delay: calc(0.2s * var(--index));
+    transform-origin: left center;
+}
+
+@keyframes rowAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes cellAnimation {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+#p4 {
+    animation: rowAnimation 1s ease-in-out infinite;
+}
+
+#p4 td {
+    animation: cellAnimation 1s ease-in-out infinite;
+    animation-delay: calc(0.2s * var(--index));
+    transform-origin: left center;
+}
+@keyframes rowAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes cellAnimation {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+#p5 {
+    animation: rowAnimation 1s ease-in-out infinite;
+}
+
+#p5 td {
+    animation: cellAnimation 1s ease-in-out infinite;
+    animation-delay: calc(0.2s * var(--index));
+    transform-origin: left center;
+}
+
+@keyframes rowAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes cellAnimation {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+#p6 {
+    animation: rowAnimation 1s ease-in-out infinite;
+ 
+}
+
+#p6 td {
+    animation: cellAnimation 1s ease-in-out infinite;
+    animation-delay: calc(0.2s * var(--index));
+    transform-origin: left center;
+   
+}
+@keyframes rowAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes cellAnimation {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+#p7 {
+    animation: rowAnimation 1s ease-in-out infinite;
+}
+
+#p7 td {
+    animation: cellAnimation 1s ease-in-out infinite;
+    animation-delay: calc(0.2s * var(--index));
+    transform-origin: left center;
+    
+}
+
+@keyframes rowAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes cellAnimation {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+#p8 {
+    animation: rowAnimation 1s ease-in-out infinite;
+    animation-duration: infinite;
+}
+
+#p8 td {
+    animation: cellAnimation 1s ease-in-out infinite;
+    animation-delay: calc(0.2s * var(--index));
+    transform-origin: left center;
+   
+}
+@keyframes rowAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes cellAnimation {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+#p9 {
+    animation: rowAnimation 1s ease-in-out infinite;
+ 
+}
+
+#p9 td {
+    animation: cellAnimation 1s ease-in-out infinite;
+    animation-delay: calc(0.2s * var(--index));
+    transform-origin: left center;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
